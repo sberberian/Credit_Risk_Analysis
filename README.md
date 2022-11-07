@@ -36,3 +36,4 @@
 * The easy ensemble model has the highest precision of all models for high risk loans and record recalls for both high and low risk loans.
 
 ## Summary 
+  It's clear that, regardless of the model, there is complete certainty that the loans tagged as low risk truly are low risk yet the certainty for tagging high risk loans are extremely low. In the case of this endeavor, however, sensitivity is the more important measure. It'd be safer to have a more sensitive model that accidentally tags low risk as high risk than to miss identifying a high risk loan. Of all the models, the easy ensemble adaboost classifier was the most suitable for this scope since it had not only the greatest recall but the greatest precision for high risk loans as well. I would still not recommend using this model either. It's wonderful to have such high sensitivity but with the precision being as low as it is means the model is ultimately not very useful. 
